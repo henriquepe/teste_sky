@@ -107,3 +107,17 @@ apropriado com mensagem "Sessão inválida". ✔
 #### "prettier": "^2.1.2",
 #### "typescript": "^4.0.3"
 ##### e outras...
+
+
+## Observaçao
+
+  Para melhor simular, utilizar o Insomnia:
+  https://insomnia.rest/
+  
+  ###### Acesso ao banco de dados através da interface visual MongoDB Compass enviado por email
+  
+  ###### Workspace enviado por email.
+  
+  
+
+  
