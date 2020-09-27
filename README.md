@@ -11,10 +11,14 @@
 ### • Em caso de sucesso irá retornar um usuário mais os campos: 
   • id: id do usuário (pode ser o próprio gerado pelo banco, porém seria interessante
   se fosse um GUID). ✔
+  
   • data_criacao: data da criação do usuário. ✔
+  
   • data_atualizacao: data da última atualização do usuário. ✔
+  
   • ultimo_login: data do último login (no caso da criação, será a mesma que a
   criação). ✔
+  
   • token: token de acesso da API (pode ser um GUID ou um JWT). ✔
  
  
