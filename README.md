@@ -117,17 +117,17 @@ apropriado com mensagem "Sessão inválida". ✔
 
   Método 👉 POST
 
-  Exemplo JSON 👇
+    Exemplo JSON 👇
 
-  {
-    "name": "Henrique Pires",
-    "email": "example@gmail.com",
-    "password": "123",
-    "contactPhones": {
-      "phone": "11 988887777",
-      "ddd": "11"
+    {
+      "name": "Henrique Pires",
+      "email": "example@gmail.com",
+      "password": "123",
+      "contactPhones": {
+        "phone": "11 988887777",
+        "ddd": "11"
+      }
     }
-  }
 
   ## SIGNIN
 
@@ -135,12 +135,12 @@ apropriado com mensagem "Sessão inválida". ✔
 
   Método 👉 POST
 
-  Exemplo JSON 👇
+    Exemplo JSON 👇
 
-  {
-    "email": "example@gmail.com",
-    "password": "123"  
-  }
+    {
+      "email": "example@gmail.com",
+      "password": "123"  
+    }
 
   ## Buscar TODOS os usuários do banco
 
@@ -150,12 +150,12 @@ apropriado com mensagem "Sessão inválida". ✔
 
   Método 👉 POST
 
-  Exemplo JSON 👇
+    Exemplo JSON 👇
 
-  {
-    "email": "example@gmail.com",
-    "password": "123"  
-  }
+    {
+      "email": "example@gmail.com",
+      "password": "123"  
+    }
 
   ## Buscar um ÚNICO usuário do banco
 
