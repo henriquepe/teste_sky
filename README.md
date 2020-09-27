@@ -123,10 +123,12 @@ apropriado com mensagem "Sessão inválida". ✔
       "name": "Henrique Pires",
       "email": "example@gmail.com",
       "password": "123",
-      "contactPhones": {
-        "phone": "11 988887777",
-        "ddd": "11"
-      }
+      "contactPhones": [
+        {
+          "phone": "11 988887777",
+          "ddd": "11"
+        }
+       ]
     }
 
   ## SIGNIN
