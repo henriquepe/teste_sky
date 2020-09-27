@@ -34,6 +34,8 @@ app.use(signup);
 app.use(sessions);
 app.use(usersRouter);
 
-app.listen(3333, () => {
-  console.log('server is running on port 3333');
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`server is running on port ${port}`);
 });
