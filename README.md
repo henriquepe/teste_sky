@@ -109,6 +109,70 @@ apropriado com mensagem "Sessão inválida". ✔
 ##### e outras...
 
 
+# Utilização e requisições
+  
+  ## SIGNUP
+
+    Utilizar endereço HTTP 👉 https://backendskytest.herokuapp.com/signup
+    
+    Método 👉 POST
+    
+    Exemplo JSON 👇
+    
+    {
+      "name": "Henrique Pires",
+      "email": "example@gmail.com",
+      "password": "123",
+      "contactPhones": {
+        "phone": "11 988887777",
+        "ddd": "11"
+      }
+    }
+    
+    ## SIGNIN
+
+    Utilizar endereço HTTP 👉 https://backendskytest.herokuapp.com/
+    
+    Método 👉 POST
+    
+    Exemplo JSON 👇
+    
+    {
+      "email": "example@gmail.com",
+      "password": "123"  
+    }
+    
+    ## Buscar TODOS os usuários do banco
+
+    Utilizar endereço HTTP 👉 https://backendskytest.herokuapp.com/index/
+    
+    🔐 Necessário Token com prefixo Bearer (Disponível no signin)
+    
+    Método 👉 POST
+    
+    Exemplo JSON 👇
+    
+    {
+      "email": "example@gmail.com",
+      "password": "123"  
+    }
+    
+    ## Buscar um ÚNICO usuário do banco
+
+    Utilizar endereço HTTP 👉 https://backendskytest.herokuapp.com/index/:id
+    
+    🔐 Necessário Token com prefixo Bearer (Disponível no signin)
+    🔑 Necessário ID do usuário irá ser buscado (Disponível no signin, signup ou na busca por todos os usuários)
+    
+    Método 👉 POST
+    
+    Exemplo Busca 👇
+    
+    https://backendskytest.herokuapp.com/index/5f709c08867d023ad4010b2c
+    
+    🎈 Após o index na estrutura acima passar o ID desejado
+    
+
 ## Observaçao
 
   Para melhor simular, utilizar o Insomnia:
