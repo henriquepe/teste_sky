@@ -168,11 +168,11 @@ apropriado com mensagem "Sessão inválida". ✔
 
   Método 👉 POST
 
-  Exemplo Busca 👇
+    Exemplo Busca 👇
 
-  https://backendskytest.herokuapp.com/index/5f709c08867d023ad4010b2c
+    https://backendskytest.herokuapp.com/index/5f709c08867d023ad4010b2c
 
-  🎈 Após o index na estrutura acima passar o ID desejado
+    🎈 Após o index na estrutura acima passar o ID desejado
     
 
 ## Observaçao
